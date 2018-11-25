@@ -16,7 +16,7 @@
     "webpack-cli": "^3.1.2"
   },
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bundle.js",
   "directories": {
     "lib": "lib",
     "test": "test"
