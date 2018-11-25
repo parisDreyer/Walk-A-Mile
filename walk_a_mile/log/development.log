@@ -106,3 +106,67 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 1051ms (Views: 1036.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:24:15 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1218ms (Views: 1204.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:43:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 149ms (Views: 147.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:43:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:44:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `favicons' for #<#<Class:0x007fcdbaa0b308>:0x007fcdc3765b18>:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1722174418034487250_70260865757860'
+
+Started POST "/__better_errors/f7ab454e417546ce/variables" for 127.0.0.1 at 2018-11-24 18:44:27 -0800
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:44:54 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 342ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `favicons' for #<#<Class:0x007fcdbaa0b308>:0x007fcdba38c680>:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1722174418034487250_70260793327360'
+
+Started POST "/__better_errors/45031c0695d67815/variables" for 127.0.0.1 at 2018-11-24 18:44:54 -0800
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:45:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 377ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `favicon' for #<#<Class:0x007fcdbaa0b308>:0x007fcdbbb06ec8>:
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1722174418034487250_70260805917620'
+
+Started POST "/__better_errors/a0ec49d4c6bf71d7/variables" for 127.0.0.1 at 2018-11-24 18:45:06 -0800
+Started GET "/" for 127.0.0.1 at 2018-11-24 18:45:20 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 558ms (Views: 555.1ms | ActiveRecord: 0.0ms)
+
+
