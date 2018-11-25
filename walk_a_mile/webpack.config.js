@@ -6,7 +6,7 @@ module.exports = {
     context: __dirname,
     entry: './frontend/walk_a_mile.jsx',
     output: {
-        path: path.resolve(__dirname),
+        path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
         filename: './bundle.js',
     },
     module: {
