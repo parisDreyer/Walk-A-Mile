@@ -1,3 +1,2 @@
-node_modules
-./node_modules
-./walk_a_mile/node_modules
+.gitignore
+/node_modules
