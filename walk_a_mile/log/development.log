@@ -1,0 +1,17 @@
+Started GET "/" for 127.0.0.1 at 2018-11-24 17:41:25 -0800
+
+PG::ConnectionBad - FATAL:  database "walk_a_mile_development" does not exist
+:
+
+Started POST "/__better_errors/78dec10db425ea6e/variables" for 127.0.0.1 at 2018-11-24 17:41:26 -0800
+  [1m[35m (358.1ms)[0m  [1m[35mCREATE DATABASE "walk_a_mile_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (253.7ms)[0m  [1m[35mCREATE DATABASE "walk_a_mile_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-11-24 17:42:03 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lukedreyer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lukedreyer/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 21ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
